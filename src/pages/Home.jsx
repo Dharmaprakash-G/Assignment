@@ -2,13 +2,18 @@ import React from 'react'
 import Navbar from '../components/navbar'
 import banner from '../assets/banner1.svg'
 import Footer from '../components/Footer'
+import Clients from '../components/Clients'
+import AboutUs from '../components/AboutUs'
+import Products from '../components/Products'
+import Blogs from '../components/Blogs'
+import Services from '../components/Services'
 
 const Home = () => {
   return (
     <div className='bg-white'>
       <Navbar/>
 
-        <div className='flex items-center justify-center font-montserrat font-bold text-5xl mt-10'>
+        <div className='flex items-center justify-center font-montserrat font-bold text-5xl mt-20'>
             The Best Development Place For Your Business
         </div>
 
@@ -16,13 +21,35 @@ const Home = () => {
             Your Business        
         </div>
 
-        <div className='grid grid-cols-2 px-10 mt-10'>
-          <h6 className='mt-10 text-4xl font-montserrat px-10'>We Build Your Dream</h6>
-          {/* <div className='flex'>
-            <h6>Software</h6>
-            <h6 className='text-red-500'>Easy</h6>
+        <div className="grid grid-cols-2 px-20 mt-20 mb-10  items-center">
+        
+          <div className=''>
+            <h6 className="text-5xl font-montserrat font-bold mb-4">
+              We Build Your Dream
+            </h6>
+            <div className='flex gap-3 font-bold font-montserrat text-5xl'>
+              <h6 className="">Software</h6>
+              <h6 className="text-red-500 mb-5">
+                Easy
+              </h6>
+            </div>
 
-          </div> */}
+            <div className='flex gap-3 font-montserrat mt-10'>
+              <div class="h-[105px] w-1 bg-red-500 mt-2"></div>
+              <div className='space-y-2'>
+                <p>we are not just IT experts, we are your strategic partners in navigating the ever</p>
+                <p>evolving landscape of technology and transformation. With a deep passion for </p>
+                <p>innovation and a commitment to excellence, we empower businesses to harnessr</p>
+                <p>the power of digital technology to drive growth and redefine their success.</p>
+              </div>
+
+            </div>
+
+            <button className='mt-10 border-2 border-red-500 rounded px-4 py-2 mb-5 '>
+                  Get Started
+            </button>           
+
+          </div>         
         
           <div className=" ">
               <img 
@@ -32,6 +59,12 @@ const Home = () => {
                 />
           </div>
         </div>
+
+        <Clients/>
+        <AboutUs/>
+        <Services/>
+        <Products/>
+        <Blogs/>
         
       <Footer/>
     </div>
