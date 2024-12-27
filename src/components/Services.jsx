@@ -9,7 +9,7 @@ import w6 from "../assets/w6.png";
 const Services = () => {
   return (
     <div>
-      <div className="grid grid-cols-3 px-10 mt-20 mb-20 space-x-20 bg-lightGrayTransparent ">
+      <div className="grid grid-cols-1 px-10 md:grid-cols-3 md:px-10 mt-20 mb-20 md:space-x-20 bg-lightGrayTransparent ">
         <div className="col-span-1 mt-10 mb-10">
           <h6 className="text-5xl font-montserrat mb-10">What We Do</h6>
           <h6 className="text-3xl font-poppins mb-5">
@@ -29,7 +29,7 @@ const Services = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-3 grid-rows-2 col-span-2 gap-5 mt-10 mb-10">
+        <div className="grid md:grid-cols-3 grid-rows-2 md:col-span-2 gap-5 mt-10 mb-10">
           <div className="border-2 border-gray-300 hover:border-red-500 rounded-xl space-y-2 p-5 transform transition-transform duration-300 hover:scale-105">
             <div>
               <img src={w1} />

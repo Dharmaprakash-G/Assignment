@@ -36,7 +36,7 @@ const Clients = () => {
         Our Trusted Clients
       </div>
       <div className="mt-10 flex justify-center">
-        <div className="w-full max-w-6xl">
+        <div className="w-full max-w-6xl px-4 sm:px-0">
           <Slider {...settings}>
             <div className="flex items-center justify-center p-4">
               <img src={c1} alt="Client 1" className="max-w-full rounded-lg" />

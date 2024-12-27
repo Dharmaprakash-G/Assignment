@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import { SlArrowDown } from "react-icons/sl";
-import { useState } from "react";
 
 const Request = () => {
   const [selectedOrg, setSelectedOrg] = useState("");
@@ -12,9 +11,10 @@ const Request = () => {
   };
 
   return (
-    <div className="absolute mt-[-300px]">
-      <div className="border-transparent bg-gray-50 shadow-lg rounded-lg ml-20 mr-20 ">
-        <div className="grid grid-cols-3 p-10 gap-10">
+    <div className="md:absolute mt-[-300px] px-10 md:px-20 mb-20 md:mb-0 ">
+      <div className="border-transparent bg-gray-50 shadow-lg rounded-lg">
+        <div className="grid grid-cols-1 md:grid-cols-3 p-10 gap-10">
+          
           <div className="col-span-1">
             <div className="flex">
               <div className="space-y-5 p-10">
@@ -22,20 +22,21 @@ const Request = () => {
                   Request a Call Back
                 </div>
                 <div className="text-mutedGrayBlue font-poppins">
-                  Thank You for reaching out to iTech! please fill the form
-                  right. Our team will contact you shortly.
+                  Thank You for reaching out to iTech! Please fill out the form
+                  correctly. Our team will contact you shortly.
                 </div>
               </div>
-              <div class="h-[265px] w-[1px] bg-black mt-2"></div>
+              <div className="md:h-[265px] w-[1px] bg-black mt-2"></div>
             </div>
           </div>
 
-          <div className="col-span-2 font-poppins ">
+          
+          <div className="col-span-1 md:col-span-2 font-poppins">
             <form>
-              <div className="grid grid-cols-2 grid-rows-2 gap-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div className="grid">
                   <input
-                    type="name"
+                    type="text"
                     name="name"
                     placeholder="Name"
                     className="border border-gray-300 p-3 mt-2 rounded-md "
@@ -43,8 +44,8 @@ const Request = () => {
                 </div>
                 <div className="grid">
                   <input
-                    type="number"
-                    name="number"
+                    type="tel"
+                    name="phone"
                     placeholder="Phone"
                     className="border border-gray-300 p-3 mt-2 rounded-md "
                   />
@@ -53,7 +54,7 @@ const Request = () => {
                   <input
                     type="email"
                     name="email"
-                    placeholder="Enter yours Email"
+                    placeholder="Enter Your Email"
                     className="border border-gray-300 p-3 mt-2 rounded-md "
                   />
                 </div>
@@ -77,7 +78,7 @@ const Request = () => {
               </div>
               <div className="mt-8">
                 <input
-                  type="name"
+                  type="text"
                   name="message"
                   placeholder="Message"
                   className="border border-gray-300 p-3 mt-2 rounded-md w-full h-[70px] "
