@@ -13,7 +13,7 @@ const Services = () => {
             <div className='col-span-1 mt-10 mb-10'>
                 <h6 className='text-5xl font-montserrat mb-10'>What We Do</h6>
                 <h6 className='text-3xl font-poppins mb-5'>Elevating Businesses Through Comprehensive Technology Services</h6>
-                <p className='font-poppins text-mutedGrayBlue '>
+                <p className='font-poppins text-mutedGrayBlue text-justify '>
                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled since the 1500s, when an unknown printer took a galley of type and scrambled Lorem Ipsum is simply 
                 </p>
 
@@ -21,39 +21,39 @@ const Services = () => {
 
             <div className='grid grid-cols-3 grid-rows-2 col-span-2 gap-5 mt-10 mb-10'>
               
-                <div className='border-2 border-red-500 rounded-xl space-y-2 p-5'>
+                <div className='border-2 border-gray-300 hover:border-red-500 rounded-xl space-y-2 p-5 transform transition-transform duration-300 hover:scale-105'>
                   <div><img src={w1} /></div>
                   <div className='text-lg font-poppins'>Digital Transformation</div>
                   <div className='text-mutedGrayBlue'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy printing </div>
                 </div>
                           
-                <div className='border-2 border-red-500 rounded-xl space-y-2 p-5'>
+                <div className='border-2 border-gray-300 hover:border-red-500 rounded-xl space-y-2 p-5 transform transition-transform duration-300 hover:scale-105'>
                   <div><img src={w2} /></div>
-                  <div className='text-lg font-poppins'>Digital Transformation</div>
+                  <div className='text-lg font-poppins'>IoT</div>
                   <div className='text-mutedGrayBlue'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy printing </div>
                 </div>
                 
-                <div className='border-2 border-red-500 rounded-xl space-y-2 p-5'>
+                <div className='border-2 border-gray-300 hover:border-red-500 rounded-xl space-y-2 p-5 transform transition-transform duration-300 hover:scale-105'>
                   <div><img src={w3} /></div>
-                  <div className='text-lg font-poppins'>Digital Transformation</div>
+                  <div className='text-lg font-poppins'>Facility Management</div>
                   <div className='text-mutedGrayBlue'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy printing </div>
                 </div>
                 
-                <div className='border-2 border-red-500 rounded-xl space-y-2 p-5'>
+                <div className='border-2 border-gray-300 hover:border-red-500 rounded-xl space-y-2 p-5 transform transition-transform duration-300 hover:scale-105'>
                   <div><img src={w4} /></div>
-                  <div className='text-lg font-poppins'>Digital Transformation</div>
+                  <div className='text-lg font-poppins'>AI & ML</div>
                   <div className='text-mutedGrayBlue'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy printing </div>
                 </div>
                 
-                <div className='border-2 border-red-500 rounded-xl space-y-2 p-5'>
+                <div className='border-2 border-gray-300 hover:border-red-500 rounded-xl space-y-2 p-5 transform transition-transform duration-300 hover:scale-105'>
                   <div><img src={w5} /></div>
-                  <div className='text-lg font-poppins'>Digital Transformation</div>
+                  <div className='text-lg font-poppins'>Asset Tracking</div>
                   <div className='text-mutedGrayBlue'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy printing </div>
                 </div>
                 
-                <div className='border-2 border-red-500 rounded-xl space-y-2 p-5'>
+                <div className='border-2 border-gray-300 hover:border-red-500 rounded-xl space-y-2 p-5 transform transition-transform duration-300 hover:scale-105'>
                   <div><img src={w6} /></div>
-                  <div className='text-lg font-poppins'>Digital Transformation</div>
+                  <div className='text-lg font-poppins'>Business Intelligence</div>
                   <div className='text-mutedGrayBlue'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy printing </div>
                 </div>
                 

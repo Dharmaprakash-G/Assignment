@@ -7,6 +7,8 @@ import AboutUs from '../components/AboutUs'
 import Products from '../components/Products'
 import Blogs from '../components/Blogs'
 import Services from '../components/Services'
+import Request from '../components/Request'
+import Reviews from '../components/Reviews'
 
 const Home = () => {
   return (
@@ -45,7 +47,7 @@ const Home = () => {
 
             </div>
 
-            <button className='mt-10 border-2 border-red-500 rounded px-4 py-2 mb-5 '>
+            <button className='mt-10 border-2 border-red-500 rounded-lg px-4 py-2 mb-5 transform transition-transform duration-300 hover:scale-105 '>
                   Get Started
             </button>           
 
@@ -65,6 +67,8 @@ const Home = () => {
         <Services/>
         <Products/>
         <Blogs/>
+        <Reviews/>
+        <Request/>
         
       <Footer/>
     </div>

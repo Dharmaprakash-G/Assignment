@@ -7,7 +7,7 @@ import sms from '../assets/sms-tracking.png'
 
 const Footer = () => {
   return (
-    <footer className='w-full bg-customBlue  px-4 md:px-16 lg:px-28 font-poppins'>
+    <footer className=' w-full bg-customBlue  px-4 md:px-16 lg:px-28 font-poppins py-20 '>
         <div className='grid grid-cols-1 md:grid-cols-4 gap-3' >
             <div className='mt-10'>
                 <img src={logo}/>

@@ -13,7 +13,7 @@ const Blogs = () => {
       <div className='text-3xl font-poppins mb-5'>Blogs</div>
 
       <div className='grid grid-cols-3 gap-10 font-poppins'>
-            <div className='border-2 rounded-lg p-5 space-y-4'>
+            <div className='border-2 rounded-lg p-5 space-y-4 transform transition-transform duration-300 hover:scale-105'>
                 <img
                     src={bl1}
                 />
@@ -27,7 +27,7 @@ const Blogs = () => {
                 </div>
  
             </div>         
-            <div className='border-2 rounded-lg p-5 space-y-4'>
+            <div className='border-2 rounded-lg p-5 space-y-4 transform transition-transform duration-300 hover:scale-105'>
                 <img
                     src={bl2}
                 />
@@ -41,7 +41,7 @@ const Blogs = () => {
                 </div>
  
             </div>         
-            <div className='border-2 rounded-lg p-5 space-y-4'>
+            <div className='border-2 rounded-lg p-5 space-y-4 transform transition-transform duration-300 hover:scale-105'>
                 <img
                     src={bl3}
                 />
@@ -55,6 +55,9 @@ const Blogs = () => {
                 </div>
  
             </div>         
+        </div>
+        <div className='mb-36'>
+
         </div>
     </div>
   )
