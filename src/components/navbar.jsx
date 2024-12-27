@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import logo from "../assets/logo.png";
 import { SlArrowDown } from "react-icons/sl";
 
@@ -16,7 +16,7 @@ const Navbar = () => {
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      section.scrollIntoView({ behavior: "smooth" });
       setServicesOpen(false);
       setProductsOpen(false);
       setUseCaseOpen(false);
@@ -27,19 +27,20 @@ const Navbar = () => {
     <nav className="bg-white px-14 shadow p-2">
       <div className="max-w mx-auto">
         <div className="flex items-center justify-between h-20">
-          
           <div className="flex-shrink-0">
             <a href="/">
               <img src={logo} alt="logo" className="h-15" />
             </a>
           </div>
 
-          
           <div className="flex items-center justify-center space-x-10 text-md font-montserrat mt-3 relative">
-            <a href="#" className="hover:text-red-500">Home</a>
-            <a href="#" className="hover:text-red-500">About Us</a>
+            <a href="#" className="hover:text-red-500">
+              Home
+            </a>
+            <a href="#" className="hover:text-red-500">
+              About Us
+            </a>
 
-            
             <div className="relative">
               <a
                 href="#"
@@ -71,7 +72,7 @@ const Navbar = () => {
                       className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                       onClick={() => scrollToSection("service3")}
                     >
-                     Facility Management
+                      Facility Management
                     </li>
                     <li
                       className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
@@ -134,7 +135,6 @@ const Navbar = () => {
               )}
             </div>
 
-            
             <div className="relative">
               <a
                 href="#"
@@ -155,14 +155,12 @@ const Navbar = () => {
                       onClick={() => scrollToSection("usecase1")}
                     >
                       Compressed Air Flow Monitoring
-
                     </li>
                     <li
                       className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                       onClick={() => scrollToSection("usecase2")}
                     >
                       RFID Based Asset Tracking
-
                     </li>
                     <li
                       className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
@@ -175,11 +173,14 @@ const Navbar = () => {
               )}
             </div>
 
-            <a href="#" className="hover:text-red-500">Clients</a>
-            <a href="#" className="hover:text-red-500">Career</a>
+            <a href="#" className="hover:text-red-500">
+              Clients
+            </a>
+            <a href="#" className="hover:text-red-500">
+              Career
+            </a>
           </div>
 
-          
           <button className="mt-3 border border-black rounded px-4 py-2 transform transition-transform duration-300 hover:scale-105">
             Contact Us
           </button>
