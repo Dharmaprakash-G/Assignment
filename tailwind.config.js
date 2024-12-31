@@ -14,6 +14,7 @@ export default {
         customBlue: '#142d5c',
         mutedGrayBlue: '#6B6B84',
         lightGrayTransparent: 'rgba(235, 235, 235, 0.41)', 
+        customTeal: '#235262'
       },
     },
   },

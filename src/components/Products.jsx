@@ -6,12 +6,12 @@ import pd from '../assets/pd.png'
 
 const Products = () => {
   return (
-    <div className='px-10 mt-10 space-y-10 mb-20'>
+    <div className='md:px-10 mt-10 space-y-10 mb-20'>
       
       <h6 className='flex items-center justify-center font-semibold text-5xl mb-20'>Our Products</h6>
 
       
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-10 px-10'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 px-10'>
         <div>
           <img src={p1} className="w-full h-auto" />
         </div>
@@ -26,8 +26,8 @@ const Products = () => {
       </div>
 
       
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-10 px-10'>
-      <div className='mt-10 md:hidden'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 px-10'>
+      <div className='mt-10 lg:hidden'>
           <img src={p2} className="w-full h-auto" />
         </div>
         <div className='space-y-5 md:mt-20'>
@@ -40,13 +40,13 @@ const Products = () => {
             such as serial numbers, batch numbers, barcode, QR code or RFID tags, to associate each item with its relevant information.
           </p>               
         </div>
-        <div className='px-7  hidden md:block'>
+        <div className='px-7  hidden lg:block'>
           <img src={p2} className="w-full h-auto " />
         </div>
       </div>
 
       
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-10 px-10'>
+      <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 px-10'>
         <div className='mt-10'>
           <img src={p3} className="w-full h-auto" />
         </div>
@@ -63,12 +63,7 @@ const Products = () => {
       </div>
 
       
-      <div>
-        <img 
-          src={pd}
-          className='px-20 mt-20 w-full h-auto'
-        />
-      </div>
+      
     </div>
   )
 }

@@ -7,14 +7,14 @@ import bl3 from '../assets/bl3.png'
 
 const Blogs = () => {
   return (
-    <div className='px-20 mt-20 mb-20'>
+    <div className='lg:px-20 px-20 mt-20 mb-20'>
       
       <div className='text-5xl font-montserrat mb-10'>Blogs</div>
       <div className='text-3xl font-poppins'>Explore Our Latest </div>
       <div className='text-3xl font-poppins mb-5'>Blogs</div>
 
       
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
+      <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-10'>
         <div className='border-2 rounded-lg p-5 space-y-4 transform transition-transform duration-300 hover:scale-105'>
           <img src={bl1} className="w-full h-auto" />
           <div className='text-mutedGrayBlue'>April 16, 2024 - Tech</div>

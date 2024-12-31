@@ -11,9 +11,9 @@ const Request = () => {
   };
 
   return (
-    <div className="md:absolute mt-[-300px] px-10 md:px-20 mb-20 md:mb-0 ">
+    <div className="lg:absolute mt-[-300px] px-10 md:px-20 mb-20 md:mb-20 ">
       <div className="border-transparent bg-gray-50 shadow-lg rounded-lg">
-        <div className="grid grid-cols-1 md:grid-cols-3 p-10 gap-10">
+        <div className="grid grid-cols-1 lg:grid-cols-3 p-10 gap-10">
           
           <div className="col-span-1">
             <div className="flex">
@@ -26,7 +26,7 @@ const Request = () => {
                   correctly. Our team will contact you shortly.
                 </div>
               </div>
-              <div className="md:h-[265px] w-[1px] bg-black mt-2"></div>
+              <div className="md:h-[265px] w-[1px] bg-black mt-2 hidden lg:block"></div>
             </div>
           </div>
 

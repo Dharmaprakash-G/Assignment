@@ -4,15 +4,15 @@ import about from '../assets/aboutus.svg';
 const AboutUs = () => {
   return (
     <div className='px-6 sm:px-10 mt-20 mb-20'>
-      <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 px-6 sm:px-10'>
-        {/* Image Section */}
+      <div className='lg:grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-10 px-6 sm:px-10'>
+        
         <div className='mt-10'>
           <img src={about} className='w-full h-auto' alt='About Us' />
         </div>
 
-        {/* Text Section */}
+        
         <div>
-          <div className='text-3xl sm:text-4xl md:text-5xl mb-6 font-montserrat'>
+          <div className='text-3xl md:mt-20 sm:text-4xl md:text-5xl mb-6 font-montserrat'>
             About Us
           </div>
           <div className='text-xl sm:text-2xl mb-4 font-poppins'>

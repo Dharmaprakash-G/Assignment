@@ -29,7 +29,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white px-6 md:px-14 shadow p-2">
+    <nav className="bg-white px-6 md:px-14 shadow p-2 fixed top-0 w-full z-50 ">
       <div className="max-w mx-auto">
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
 
           
-          <div className="flex items-center justify-center space-x-10 text-md font-montserrat mt-3 relative hidden md:flex">
+          <div className=" items-center justify-center space-x-10 text-md font-montserrat mt-3 relative hidden  lg:flex">
             <a href="#" className="hover:text-red-500">
               Home
             </a>
@@ -191,12 +191,12 @@ const Navbar = () => {
           </div>
 
           
-          <button className="mt-3 border border-black rounded px-4 py-2 transform transition-transform duration-300 hover:scale-105 hidden md:block">
+          <button className="mt-3 border border-black rounded px-4 py-2 transform transition-transform duration-300 hover:scale-105 hidden lg:block">
             Contact Us
           </button>
 
           
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden  flex items-center">
             <button onClick={toggleMobileMenu} className="text-black">
               <SlArrowDown size={20} />
             </button>

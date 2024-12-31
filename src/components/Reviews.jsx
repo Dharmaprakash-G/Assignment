@@ -16,7 +16,7 @@ import { RxArrowTopRight } from "react-icons/rx";
 
 const Reviews = () => {
   return (
-    <div className="mt-20 px-10 md:px-20 space-y-10 mb-[400px] items-center">
+    <div className="mt-20 px-50 md:px-10 space-y-10 mb-[400px] items-center">
       <div className="flex items-center justify-center text-4xl font-montserrat">
         {" "}
         Client Reviews
@@ -32,7 +32,7 @@ const Reviews = () => {
         </div>
 
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-10">
           
           <div className="border-2 shadow-lg rounded-lg p-8 space-y-5 transform transition-transform duration-300 hover:scale-105">
             <div className="flex mb-10">

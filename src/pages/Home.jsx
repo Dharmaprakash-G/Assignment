@@ -9,28 +9,29 @@ import Blogs from "../components/Blogs";
 import Services from "../components/Services";
 import Request from "../components/Request";
 import Reviews from "../components/Reviews";
+import ProductFooter from "../components/ProductFooter";
 
 const Home = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white mt-[150px]">
       <Navbar />
 
       
-      <div className="flex items-center justify-center font-montserrat font-bold text-3xl sm:text-4xl md:text-5xl mt-10 px-4 text-center">
+      <div className="flex items-center justify-center font-montserrat font-bold lg:text-5xl text-4xl md:text-4xl mt-10 px-4 text-center">
         The Best Development Place For Your Business
       </div>
 
-      <div className="flex items-center justify-center text-3xl sm:text-4xl md:text-5xl font-montserrat font-bold text-red-500 mt-5 px-4 text-center">
+      <div className="flex items-center justify-center  md:text-4xl lg:text-5xl text-4xl font-montserrat font-bold text-red-500 mt-5 px-4 text-center">
         Your Business
       </div>
 
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 px-6 sm:px-20 mt-20 mb-10 items-center">
-        <div className="">
-          <h6 className="text-4xl sm:text-5xl font-montserrat font-bold mb-4">
+      <div className=" lg:grid grid-cols-1 sm:grid-cols-2 gap-8 px-6 sm:px-20 mt-20 mb-10 items-center">
+        <div className="px-5">
+          <h6 className="lg:text-5xl text-4xl font-montserrat font-bold mb-4">
             We Build Your Dream
           </h6>
-          <div className="flex gap-3 font-bold font-montserrat text-3xl sm:text-5xl">
+          <div className="flex gap-3 font-bold font-montserrat lg:text-5xl text-3xl">
             <h6 className="">Software</h6>
             <h6 className="text-red-500 mb-5">Easy</h6>
           </div>
@@ -59,6 +60,7 @@ const Home = () => {
       <AboutUs />
       <Services />
       <Products />
+      <ProductFooter/>
       <Blogs />
       <Reviews />
       <Request />
